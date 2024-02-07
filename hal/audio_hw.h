@@ -851,6 +851,9 @@ struct audio_device {
     bool ha_proxy_enable;
 
     amplifier_device_t *amp;
+
+    int ext_controller;
+    int ext_stream;
 };
 
 struct audio_patch_record {
